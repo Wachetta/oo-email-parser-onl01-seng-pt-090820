@@ -14,7 +14,7 @@ class EmailAddressParser
   end
   
   def parse
-   @@email_addresses.scan(/@/)
+   @@email_addresses.(/@/)
   binding.pry
   end
 
