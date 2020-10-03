@@ -5,13 +5,10 @@
 require 'pry'
 class EmailAddressParser
   attr_accessor :email
-  @@email_addresses = []
-
+  
   def initialize(email)
    @email = email
-   @@email_addresses << @email
-  
-  end
+    end
   
   def parse
    @@email_addresses.(/@/)
